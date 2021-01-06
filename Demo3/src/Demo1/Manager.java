@@ -18,6 +18,7 @@ public class Manager extends Employee{
         vehicle.SetSex("男");
         vehicle.GetAge();
         vehicle.GetName();
+
         vehicle.GetSex();
         vehicle.sing();
         Employee.SetAndGetId("121");//静态方法属于类,通过类来调用
