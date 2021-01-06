@@ -508,7 +508,7 @@
       <recent name="D:\wj\javaCode\gc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RealLinkedListTestDemo">
+  <component name="RunManager" selected="Application.Manager">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
       <module name="20210101" />
@@ -516,9 +516,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo1" />
-      <module name="20210101" />
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo1.Manager" />
+      <module name="Demo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -593,11 +599,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Manager" />
         <item itemvalue="Application.RealLinkedListTestDemo" />
         <item itemvalue="Application.TestMyLinkedListDemo" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Demo1 (1)" />
       </list>
     </recent_temporary>
   </component>
