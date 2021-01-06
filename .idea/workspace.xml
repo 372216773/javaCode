@@ -2,455 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1f6292-75f0-4cc2-bb5b-76622711eae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/javaCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20201229/20201229.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20201229/src/cal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/20210101.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/MyString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/chengfakoujuebiao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/digui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/exchangevalue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20210101/src/zuidagongyueshu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo01/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo2/Thread/MyThread/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo2/Thread/MyThread/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo3/Runnable/Demo1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo3/Runnable/Demo1/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo3/Runnable/Demo1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo3/TreeSet/Demo1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/src/Demo3/TreeSet/Demo1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/Demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/out.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo01/Demo8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo02/Demo9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo22.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo23.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo24.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo25.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo26.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo27.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo28.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo29.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo03/Demo9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/Demo9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/Demo04/demo7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/META-INF/新卓越第一周.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo01/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo02/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo03/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/out/production/Demo1/src/Demo04/demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo01/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo02/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo03/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/Demo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo1/src/Demo04/demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/Demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Extends/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Extends/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Extends/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Extends/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Rectangle/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Rectangle/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Secondarypackaging/ControlClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Secondarypackaging/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/out/production/Demo2/Secondarypackaging/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Extends/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Extends/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Extends/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Extends/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Rectangle/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Rectangle/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Secondarypackaging/ControlClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Secondarypackaging/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo2/src/Secondarypackaging/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/Demo3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/javaCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo1/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo1/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo1/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo2/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo2/Motorbike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo2/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo2/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo3/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo3/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo3/Programmer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo3/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo4/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo4/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo5/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo5/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo6/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo6/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo7/Calculation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/out/production/Demo3/Demo7/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo1/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo1/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo2/Motorbike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo3/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo3/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo4/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo5/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo5/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo6/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo6/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo7/Calculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo3/src/Demo7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeqList/SeqList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeqList/src/Print_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeqList/src/SeqList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeqList/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/gc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/MyArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/MyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/MyValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/Swap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/TestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20200103/TestMyLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20201229/cal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Demo9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/MyString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/array.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/chengfakoujuebiao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/digui.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/exchangevalue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/20210101/zuidagongyueshu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Demo3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Father.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Person$1methodInner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Person$Inner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Person$Inner1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo01/demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo2/Thread/MyThread/MyThread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo2/Thread/MyThread/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo3/Runnable/Demo1/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo3/Runnable/Demo1/MyThread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/Demo3/Runnable/Demo1/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo/META-INF/Demo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Extends/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Extends/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Extends/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Extends/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Rectangle/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Rectangle/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Secondarypackaging/ControlClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Secondarypackaging/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo2/Secondarypackaging/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo1/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo1/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo1/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo2/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo2/Motorbike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo2/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo2/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo3/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo3/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo3/Programmer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo3/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo4/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo4/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo5/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo5/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo6/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo6/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo7/Calculation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/Demo3/Demo7/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/SeqList/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/SeqList/Print_List.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/SeqList/SeqList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/Gc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/com/wj/Demo/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/com/wj/Demo/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/com/wj/Demo1/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/com/wj/Demo1/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/gc/com/wj/Demo1/demo5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/MyArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/MyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/MyValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/Swap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/TestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/单链表/TestMyLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/双向链表/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/双向链表/RealLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/out/production/双向链表/RealLinkedListTestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/Gc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/com/wj/Demo1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/com/wj/Demo1/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/com/wj/Demo1/demo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/com/wj/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/src/com/wj/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/inheritance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/src/com/wj/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/src/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/src/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/src/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/src/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/src/TestMyLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/单链表/单链表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双向链表/src/RealLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双向链表/src/RealLinkedListTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双向链表/双向链表.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/src/com/wj/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/src/com/wj/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,8 +20,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="王京" />
         <option value="wangjing" />
+        <option value="王京" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -500,7 +53,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -508,10 +61,29 @@
       <recent name="D:\wj\javaCode\gc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Manager">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="20210101" />
+  <component name="RunManager" selected="Application.Demo2">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wj.Demo" />
+      <module name="inheritance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wj.Demo2" />
+      <module name="inheritance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -532,13 +104,6 @@
     <configuration name="RealLinkedListTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RealLinkedListTestDemo" />
       <module name="双向链表" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDemo" />
-      <module name="单链表" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -599,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Manager" />
         <item itemvalue="Application.RealLinkedListTestDemo" />
         <item itemvalue="Application.TestMyLinkedListDemo" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -677,7 +242,7 @@
       <workItem from="1609756707529" duration="10745000" />
       <workItem from="1609772865577" duration="4410000" />
       <workItem from="1609810596306" duration="28591000" />
-      <workItem from="1609893171901" duration="1120000" />
+      <workItem from="1609893171901" duration="7579000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -777,7 +342,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609893681420</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Java Code">
+      <created>1609894351219</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609894351219</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Java Code">
+      <created>1609894472966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609894472966</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Java Code">
+      <created>1609894530263</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609894530263</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,18 +404,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="12" y="3" width="1035" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1607249775610" />
-    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1609660562181">
+    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1609923646223">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1609660562181" />
+    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1609923646223" />
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609476332316">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1609476332316" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609894287520">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609894529720">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609894287520" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609894529720" />
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog" timestamp="1609817302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -838,42 +424,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="716" y="120" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1609894189122" />
-    <state x="572" y="250" key="Github.ShareDialog" timestamp="1609811939450">
+    <state x="572" y="250" key="Github.ShareDialog" timestamp="1609894660064">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="572" y="250" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1609811939450" />
-    <state width="808" height="124" key="GridCell.Tab.0.bottom" timestamp="1609855341466">
+    <state x="572" y="250" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1609894660064" />
+    <state width="808" height="124" key="GridCell.Tab.0.bottom" timestamp="1609926495834">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609855341466" />
-    <state width="808" height="124" key="GridCell.Tab.0.center" timestamp="1609855341466">
+    <state width="808" height="124" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609926495834" />
+    <state width="808" height="124" key="GridCell.Tab.0.center" timestamp="1609926495833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1609855341466" />
-    <state width="808" height="124" key="GridCell.Tab.0.left" timestamp="1609855341466">
+    <state width="808" height="124" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
+    <state width="808" height="124" key="GridCell.Tab.0.left" timestamp="1609926495833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1609855341466" />
-    <state width="808" height="124" key="GridCell.Tab.0.right" timestamp="1609855341466">
+    <state width="808" height="124" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
+    <state width="808" height="124" key="GridCell.Tab.0.right" timestamp="1609926495833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1609855341466" />
+    <state width="808" height="124" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
     <state x="575" y="40" key="NewModule_or_Project.wizard" timestamp="1609640196400">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="575" y="40" key="NewModule_or_Project.wizard/0.0.1280.689@0.0.1280.689" timestamp="1609640196400" />
-    <state x="254" y="0" key="SettingsEditor" timestamp="1609893980392">
+    <state x="254" y="0" key="SettingsEditor" timestamp="1609894576855">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="254" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1609893980392" />
+    <state x="254" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1609894576855" />
     <state x="911" y="262" key="VCS.ChangelistChooser" timestamp="1609815235187">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="911" y="262" key="VCS.ChangelistChooser/0.0.1280.689@0.0.1280.689" timestamp="1609815235186" />
-    <state x="135" y="82" key="Vcs.Push.Dialog.v2" timestamp="1609893706816">
+    <state x="135" y="82" key="Vcs.Push.Dialog.v2" timestamp="1609894628259">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="135" y="82" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1609893706816" />
+    <state x="135" y="82" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1609894628259" />
     <state x="433" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602665386850">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
