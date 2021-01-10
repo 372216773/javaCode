@@ -21,7 +21,10 @@ public class ReturnOperation implements IOperation{
         for (int i = 0; i < bookList.getUsedSize(); i++) {
             if (bookList.getBook(i).getName().equals(name)) {
                 bookList.getBook(i).setBorrowed(false);
+                System.out.println("归还成功!");
+                return;
             }
         }
+        System.out.println("归还失败");
     }
 }

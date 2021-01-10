@@ -25,5 +25,7 @@ public class BorrowOperation implements IOperation{
                 return;
             }
         }
+        System.out.println("未找到此书!");
+        System.out.println("借阅失败!");
     }
 }

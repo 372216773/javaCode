@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1f6292-75f0-4cc2-bb5b-76622711eae4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeqList/src/Print_List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeqList/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeqList/src/SeqList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookManager/src/operation/BorrowOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookManager/src/operation/BorrowOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +244,7 @@
       <workItem from="1609810596306" duration="28591000" />
       <workItem from="1609893171901" duration="11309000" />
       <workItem from="1610015476061" duration="9430000" />
-      <workItem from="1610259224886" duration="9359000" />
+      <workItem from="1610259224886" duration="9737000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -382,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609926514715</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Java Code">
+      <created>1610269048951</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610269048951</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Java Code">
+      <created>1610269061081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610269061081</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,10 +442,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1609476332316" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609926514059">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1610269060311">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609926514059" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1610269060311" />
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog" timestamp="1609817302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -483,6 +494,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="433" y="34" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1602665386850" />
+    <state x="439" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610269077362">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="439" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1610269077362" />
     <state x="371" y="94" key="extract.method.dialog" timestamp="1603533049648">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
