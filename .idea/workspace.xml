@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1f6292-75f0-4cc2-bb5b-76622711eae4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/src/com/wj/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/src/com/wj/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeqList/src/Print_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeqList/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeqList/src/SeqList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +64,7 @@
       <recent name="D:\wj\javaCode\gc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wj.Demo" />
       <module name="inheritance" />
@@ -88,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BookManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo1.Manager" />
       <module name="Demo3" />
@@ -104,13 +114,6 @@
     <configuration name="RealLinkedListTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RealLinkedListTestDemo" />
       <module name="双向链表" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMyLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMyLinkedListDemo" />
-      <module name="单链表" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Manager" />
         <item itemvalue="Application.RealLinkedListTestDemo" />
-        <item itemvalue="Application.TestMyLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +245,9 @@
       <workItem from="1609756707529" duration="10745000" />
       <workItem from="1609772865577" duration="4410000" />
       <workItem from="1609810596306" duration="28591000" />
-      <workItem from="1609893171901" duration="7579000" />
+      <workItem from="1609893171901" duration="11309000" />
+      <workItem from="1610015476061" duration="9430000" />
+      <workItem from="1610259224886" duration="9359000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -363,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609894530263</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Java Code">
+      <created>1609926505766</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609926505766</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Java Code">
+      <created>1609926514715</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609926514715</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,22 +419,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="713" y="204" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.689@0.0.1280.689" timestamp="1609566697877" />
-    <state x="12" y="3" width="1035" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607249775610">
+    <state x="12" y="3" width="1035" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609936577247">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="12" y="3" width="1035" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1607249775610" />
-    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1609923646223">
+    <state x="12" y="3" width="1035" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1609936577247" />
+    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1610262112952">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1609923646223" />
+    <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1610262112952" />
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609476332316">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1609476332316" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609894529720">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609926514059">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609894529720" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609926514059" />
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog" timestamp="1609817302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -428,22 +447,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="572" y="250" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1609894660064" />
-    <state width="808" height="124" key="GridCell.Tab.0.bottom" timestamp="1609926495834">
+    <state width="1237" height="258" key="GridCell.Tab.0.bottom" timestamp="1610269039326">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609926495834" />
-    <state width="808" height="124" key="GridCell.Tab.0.center" timestamp="1609926495833">
+    <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1610269039326" />
+    <state width="1237" height="258" key="GridCell.Tab.0.center" timestamp="1610269039326">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
-    <state width="808" height="124" key="GridCell.Tab.0.left" timestamp="1609926495833">
+    <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1610269039326" />
+    <state width="1237" height="258" key="GridCell.Tab.0.left" timestamp="1610269039326">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
-    <state width="808" height="124" key="GridCell.Tab.0.right" timestamp="1609926495833">
+    <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1610269039326" />
+    <state width="1237" height="258" key="GridCell.Tab.0.right" timestamp="1610269039326">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="808" height="124" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1609926495833" />
+    <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1610269039326" />
     <state x="575" y="40" key="NewModule_or_Project.wizard" timestamp="1609640196400">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -476,10 +495,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="634" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.689@0.0.1280.689" timestamp="1609811242478" />
-    <state x="547" y="0" key="new project wizard" timestamp="1609847990724">
+    <state x="547" y="0" key="new project wizard" timestamp="1609930366055">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="547" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1609847990724" />
+    <state x="547" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1609930366055" />
     <state x="461" y="218" width="615" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1609591109818">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

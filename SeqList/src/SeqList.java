@@ -42,6 +42,7 @@ public class SeqList{
             cur.next=node;
         }
     }
+
     public boolean checkIndex(int index){
         if(index<0||index>getLength()){
             System.out.println("下标不合法!");
@@ -49,6 +50,7 @@ public class SeqList{
         }else
             return true;
     }
+
     public void addInsert(int index,int data){
         //检查是否合法
         if(!checkIndex(index)){
