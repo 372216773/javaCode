@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1f6292-75f0-4cc2-bb5b-76622711eae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/2021-01-13-jar-study/2021-01-13-jar-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/2021-01-13-jar-study/src/com/wj/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gc/out/production/20200114/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gc/out/production/20200114/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <recent name="D:\wj\javaCode\gc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.Demo1">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="20200114" />
@@ -88,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo1" />
+      <module name="20200114" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wj.Demo2" />
       <module name="inheritance" />
@@ -104,19 +106,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="BookManager" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo1.Manager" />
-      <module name="Demo3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +242,7 @@
       <workItem from="1610259224886" duration="10592000" />
       <workItem from="1610537285917" duration="1204000" />
       <workItem from="1610538669904" duration="180000" />
-      <workItem from="1610608467237" duration="2726000" />
+      <workItem from="1610608467237" duration="5836000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -416,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610538324167</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Java Code">
+      <created>1610613423102</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610613423102</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Java Code">
+      <created>1610613430063</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610613430063</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,10 +468,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1609476332316" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1610538323244">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1610613429286">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1610538323244" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1610613429286" />
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog" timestamp="1609817302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -481,22 +484,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="572" y="250" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1609894660064" />
-    <state width="630" height="257" key="GridCell.Tab.0.bottom" timestamp="1610609831821">
+    <state width="630" height="257" key="GridCell.Tab.0.bottom" timestamp="1610617616551">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1610609831821" />
-    <state width="630" height="257" key="GridCell.Tab.0.center" timestamp="1610609831821">
+    <state width="630" height="257" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
+    <state width="630" height="257" key="GridCell.Tab.0.center" timestamp="1610617616551">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1610609831821" />
-    <state width="630" height="257" key="GridCell.Tab.0.left" timestamp="1610609831821">
+    <state width="630" height="257" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
+    <state width="630" height="257" key="GridCell.Tab.0.left" timestamp="1610617616551">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1610609831821" />
-    <state width="630" height="257" key="GridCell.Tab.0.right" timestamp="1610609831821">
+    <state width="630" height="257" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
+    <state width="630" height="257" key="GridCell.Tab.0.right" timestamp="1610617616551">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1610609831821" />
+    <state width="630" height="257" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
     <state x="575" y="40" key="NewModule_or_Project.wizard" timestamp="1610608490293">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
