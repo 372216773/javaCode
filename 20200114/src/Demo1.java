@@ -15,14 +15,14 @@ public class Demo1 {
 
     public static String func(String str) {
         String ret="";
-        String[] string=mySplit(str);
+        String[] string=str.split(str);
         for (String ss:string) {
             ret+=ss;
         }
         return ret;
     }
 
-    public  static String[] mySplit(String string) {
+/*    public  static String[] mySplit(String string) {
         char[] chars=string.toCharArray();
         String[] strings=new String[chars.length];
 
@@ -34,7 +34,7 @@ public class Demo1 {
                 }
         }
             return strings;
-    }
+    }*/
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         //nextLine()可以接受空格
