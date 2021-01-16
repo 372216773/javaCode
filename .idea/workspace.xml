@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1f6292-75f0-4cc2-bb5b-76622711eae4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gc/out/production/20200114/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/gc/out/production/20200114/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/2021-01-13-jar-study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/2021-01-13-jar-study/2021-01-13-jar-study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/2021-01-13-jar-study/src/com/wj/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +51,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -61,24 +68,14 @@
       <recent name="D:\wj\javaCode\Demo" />
       <recent name="D:\wj\javaCode\gc" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wj\javaCode\lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.StringDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="20200114" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wj.Demo" />
-      <module name="inheritance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,12 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wj.Demo2" />
-      <module name="inheritance" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BookManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ops1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.Ops1" />
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wj.*" />
+          <option name="PATTERN" value="com.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,9 +107,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="BookManager" />
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringDemo" />
+      <module name="String" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDemo" />
+        <item itemvalue="Application.Ops1" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,9 @@
       <workItem from="1610259224886" duration="10592000" />
       <workItem from="1610537285917" duration="1204000" />
       <workItem from="1610538669904" duration="180000" />
-      <workItem from="1610608467237" duration="5836000" />
+      <workItem from="1610608467237" duration="7936000" />
+      <workItem from="1610788692777" duration="3000" />
+      <workItem from="1610788747921" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -419,7 +425,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610613430063</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Java Code">
+      <created>1610618674899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610618674899</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Java Code">
+      <created>1610618685872</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610618685872</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Java Code">
+      <created>1610618757045</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610618757045</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,50 +491,58 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="713" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1610262112952" />
+    <state x="557" y="55" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1610620650361">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="557" y="55" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.689@0.0.1280.689" timestamp="1610620650361" />
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609476332316">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="621" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1609476332316" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1610613429286">
+    <state x="457" y="99" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1610620643120">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1610613429286" />
+    <state x="457" y="99" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.689@0.0.1280.689" timestamp="1610620643120" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1610618756403">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1610618756403" />
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog" timestamp="1609817302421">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1609817302421" />
-    <state x="716" y="69" key="FileChooserDialogImpl" timestamp="1610608479487">
+    <state x="647" y="69" key="FileChooserDialogImpl" timestamp="1610621190827">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="716" y="69" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1610608479487" />
+    <state x="647" y="69" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1610621190827" />
     <state x="572" y="250" key="Github.ShareDialog" timestamp="1609894660064">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="572" y="250" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1609894660064" />
-    <state width="630" height="257" key="GridCell.Tab.0.bottom" timestamp="1610617616551">
+    <state width="782" height="65" key="GridCell.Tab.0.bottom" timestamp="1610792887823">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
-    <state width="630" height="257" key="GridCell.Tab.0.center" timestamp="1610617616551">
+    <state width="782" height="65" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1610792887823" />
+    <state width="782" height="65" key="GridCell.Tab.0.center" timestamp="1610792887823">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
-    <state width="630" height="257" key="GridCell.Tab.0.left" timestamp="1610617616551">
+    <state width="782" height="65" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1610792887823" />
+    <state width="782" height="65" key="GridCell.Tab.0.left" timestamp="1610792887822">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
-    <state width="630" height="257" key="GridCell.Tab.0.right" timestamp="1610617616551">
+    <state width="782" height="65" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1610792887822" />
+    <state width="782" height="65" key="GridCell.Tab.0.right" timestamp="1610792887823">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="630" height="257" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1610617616551" />
+    <state width="782" height="65" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1610792887823" />
     <state x="575" y="40" key="NewModule_or_Project.wizard" timestamp="1610608490293">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="575" y="40" key="NewModule_or_Project.wizard/0.0.1280.689@0.0.1280.689" timestamp="1610608490293" />
-    <state x="207" y="0" key="SettingsEditor" timestamp="1610538263642">
+    <state x="154" y="0" key="SettingsEditor" timestamp="1610621196916">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="207" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1610538263642" />
+    <state x="154" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1610621196916" />
     <state x="911" y="262" key="VCS.ChangelistChooser" timestamp="1609815235187">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -536,10 +571,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="634" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.689@0.0.1280.689" timestamp="1609811242478" />
-    <state x="56" y="0" key="new project wizard" timestamp="1610608511765">
+    <state x="56" y="0" key="new project wizard" timestamp="1610789810524">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1610608511765" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1610789810524" />
     <state x="461" y="218" width="615" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1609591109818">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
