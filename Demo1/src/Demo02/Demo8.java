@@ -1,7 +1,5 @@
 package Demo02;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 //8.从键盘上输入年月日，输出该天是这一年中的第几天

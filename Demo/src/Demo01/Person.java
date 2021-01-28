@@ -1,8 +1,5 @@
 package Demo01;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.w3c.dom.ls.LSOutput;
-
 public class Person {
     public int age;
     public String name;

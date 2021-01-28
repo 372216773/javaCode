@@ -1,8 +1,5 @@
 package Demo03;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.w3c.dom.ls.LSOutput;
-
 //11.有 1、2、3、4 个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
 public class Demo11 {
 

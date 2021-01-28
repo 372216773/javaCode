@@ -1,6 +1,6 @@
 package com.wj.Demo1;
 
-import java.util.*;
+import java.util.Objects;
 
 public class demo5 {
 

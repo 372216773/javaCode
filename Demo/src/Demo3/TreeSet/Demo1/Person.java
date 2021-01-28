@@ -1,7 +1,5 @@
 package Demo3.TreeSet.Demo1;
 
-import java.util.Map;
-import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Person extends TreeSet implements Comparable{

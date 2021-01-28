@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Demo5 {
     //判断是否为水仙花数
     public static void main(String[] args) {

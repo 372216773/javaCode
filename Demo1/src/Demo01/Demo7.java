@@ -3,7 +3,6 @@ package Demo01;
 //7.从键盘上输入两个数字，求出这 2 个数字的和差积商，若第二个数字为 0，则商出入除数不能为
 //        0
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Demo7 {

@@ -2,7 +2,6 @@ package Demo3.Runnable.Demo1;
 /*
  */
 
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 

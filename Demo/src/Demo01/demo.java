@@ -1,7 +1,5 @@
 package Demo01;
 
-import Demo01.Person;
-
 public class demo {
     public static void main(String[] args) {
 //        Person person = new Person();
