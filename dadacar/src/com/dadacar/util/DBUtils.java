@@ -11,6 +11,5 @@ package com.dadacar.util;
  */
 public class DBUtils {
     static {
-
     }
 }
