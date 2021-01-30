@@ -17,6 +17,9 @@ public class TestMyLinkedListDemo {
         myLinkedList.addLast(6);
         myLinkedList.addLast(7);
 
+        myLinkedList.display();
+        myLinkedList.reverseList();
+        myLinkedList.display();
         MyLinkedList myLinkedList1 = new MyLinkedList();
         myLinkedList1.addLast(0);
         myLinkedList1.addLast(10);
@@ -27,11 +30,12 @@ public class TestMyLinkedListDemo {
         myLinkedList1.addLast(60);
         myLinkedList1.addLast(70);
 
+
         //MyLinkedList.createCut(myLinkedList.head,myLinkedList1.head);
 
         //System.out.println(MyLinkedList.getIntersectionNodePlus(myLinkedList.head,myLinkedList1.head).data);
 
-        MyLinkedList.displayWithHeadNode(MyLinkedList.mergeTwoLists(myLinkedList.head, myLinkedList1.head));
+        //MyLinkedList.displayWithHeadNode(MyLinkedList.mergeTwoLists(myLinkedList.head, myLinkedList1.head));
 
     }
 }

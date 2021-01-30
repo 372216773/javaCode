@@ -422,6 +422,7 @@ public class MyLinkedList {
     //相交链表
     //两个链表相交,表示的是两个链表的next域指向同一个地址
     // 只有可能是Y型的,x型不可能,因为x相交,相交的结点不可能存两个地址
+    //长的链表走完差值,在于短链表一起走找共同指向的节点就是交点
     public static Node getIntersectionNode0(Node headA, Node headB) {
         if (headA == null || headB == null) {
             return null;
