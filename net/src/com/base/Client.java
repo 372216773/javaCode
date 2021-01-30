@@ -1,3 +1,5 @@
+package com.base;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
@@ -18,7 +20,7 @@ public class Client {
 
                 outputStream.write(scanner.next().getBytes());
         }catch (IOException e) {
-            System.out.println("连接服务器失败");
+            System.out.println("连接服务器失败");          
         }finally {
             try {
                 outputStream.close();
