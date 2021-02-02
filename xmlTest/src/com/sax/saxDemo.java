@@ -18,6 +18,8 @@ public class saxDemo {
         File file = new File("./resource/Test.xml");
         saxParser.parse(file,new SaxHandler());
 
+
+
     }
 }
 

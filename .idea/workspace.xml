@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,23 +90,10 @@
       <recent name="D:\wj\javaCode\gc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Demo3">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflect.Demo" />
       <module name="reflect" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Demo1" />
-      <module name="javaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,6 +114,13 @@
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflect.Demo1" />
       <module name="reflect" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo3" />
+      <module name="20200114" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.RealLinkedListTestDemo" />
         <item itemvalue="Application.Demo1 (2)" />
-        <item itemvalue="Application.Demo1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +314,8 @@
       <workItem from="1611824810130" duration="1739000" />
       <workItem from="1611875158881" duration="32000" />
       <workItem from="1611875208865" duration="180000" />
+      <workItem from="1612068841056" duration="722000" />
+      <workItem from="1612227755464" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -690,22 +686,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="540" y="245" key="Github.ShareDialog/0.0.1280.689@0.0.1280.689" timestamp="1611820809538" />
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1611823544920">
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1612069567559">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1611823544920" />
-    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1611823544920">
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1612069567559" />
+    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1612069567559">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1611823544920" />
-    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1611823544920">
+    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1612069567559" />
+    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1612069567559">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1611823544920" />
-    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1611823544920">
+    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1612069567559" />
+    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1612069567559">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1611823544920" />
+    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1612069567559" />
     <state x="221" y="88" key="IDE.errors.dialog" timestamp="1611743531590">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -738,10 +734,6 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="439" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1610269077362" />
-    <state x="371" y="94" key="extract.method.dialog" timestamp="1603533049648">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="371" y="94" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1603533049648" />
     <state x="314" y="40" width="603" height="568" key="find.popup" timestamp="1611732771923">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -750,10 +742,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="634" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.689@0.0.1280.689" timestamp="1609811242478" />
-    <state x="56" y="0" key="new project wizard" timestamp="1611800113768">
+    <state x="56" y="0" key="new project wizard" timestamp="1612227792502">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1611800113768" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1612227792502" />
     <state x="461" y="43" width="625" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1610954798467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
