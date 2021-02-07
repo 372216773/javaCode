@@ -13,9 +13,7 @@ public class HelloServlet2 extends HttpServlet {
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 
         System.out.println("HelloServlet2 coming......");
-        res.getWriter().write("<div style='color:blue' >html</div>");
-        res.setCharacterEncoding("utf-8");
-        res.getWriter().write("<!DOCTYPE html><head><meta charset='UTF-8'><title>goods</title></head><body><div>中国</div></body></html>");
 
+        req.getRequestDispatcher("HelloServlet").forward(req,res);
     }
 }
