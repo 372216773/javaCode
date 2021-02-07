@@ -28,8 +28,8 @@ public class Ops2 {
         QueryRunner queryRunner = new QueryRunner(dataSource);
 
         String sql = "select * from member where id > 0";
-        Object query = queryRunner.query(sql, new MapHandler());
-        System.out.println(query);
+        Object query =  queryRunner.query(sql, new MapHandler());
+        //System.out.println(query);
         Object query1 = queryRunner.query(sql, new BeanHandler(Demo.class));
         System.out.println(query1);
         Object query2 = queryRunner.query(sql, new ScalarHandler());
