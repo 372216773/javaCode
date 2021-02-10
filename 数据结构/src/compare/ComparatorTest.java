@@ -1,3 +1,5 @@
+package compare;
+
 import java.util.Comparator;
 
 class Person1 implements Comparable{
@@ -18,6 +20,7 @@ class Person1 implements Comparable{
         return this.age - ((Person1)o).age;
     }
 }
+
 class ByHeightComparator implements Comparator<Person1> {
 
     @Override
@@ -33,6 +36,7 @@ class ByWeightComparator implements Comparator<Person1> {
         return o1.weight - o2.weight;
     }
 }
+
 public class ComparatorTest {
     public static void main(String[] args) {
 

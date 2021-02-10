@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/对象的比较.iml" filepath="$PROJECT_DIR$/对象的比较.iml" />
+      <module fileurl="file://$PROJECT_DIR$/对象的比较和泛型.iml" filepath="$PROJECT_DIR$/对象的比较和泛型.iml" />
     </modules>
   </component>
 </project>

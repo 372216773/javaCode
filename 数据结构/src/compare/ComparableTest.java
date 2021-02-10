@@ -1,3 +1,5 @@
+package compare;
+
 /*
 java中的类在实现时,需要声明自己具有比较大小的能力,通过实现Comparable接口
 具备xxx的能力
@@ -36,10 +38,8 @@ class Person implements Comparable<Person> {
             return 1;//任何正整数都可以
         }*/
     }
-
-
-
 }
+
 public class ComparableTest {
     public static void main(String[] args) {
         Person person = new Person("小雪", 12, 1.6, 45);

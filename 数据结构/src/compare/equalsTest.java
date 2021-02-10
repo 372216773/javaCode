@@ -1,4 +1,4 @@
-import java.util.Objects;
+package compare;
 
 class Bird{
     String name;
