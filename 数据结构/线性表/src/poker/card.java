@@ -22,8 +22,7 @@ public class card {
         if (this == o) return true;
         if (o == null || !(o instanceof card)) return false;
         card card = (card) o;
-        return rank == card.rank &&
-                Objects.equals(suit, card.suit);
+        return rank == card.rank ;
     }
 
 }
