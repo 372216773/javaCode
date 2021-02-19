@@ -1,9 +1,6 @@
 package poker;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /*
 抓鬼:去掉一张牌
@@ -48,9 +45,25 @@ public class Game2 {
         //displayCards(playerList);
 
         //抽牌
-        catchGhost(playerList,cardList);
+        popCards(playerList,cardList);
 
-        displayCards(playerList);
+        //将手中无牌的人排除
+        Iterator<player> iterator = playerList.iterator();
+        while(iterator.hasNext()) {
+            if (iterator.next().cardList.isEmpty()) {
+                iterator.next();
+            }
+        }
+
+        Random random = new Random();
+        //游戏开始
+        while(true) {
+            for (int i = 0; i < playerList.size(); i++) {
+                player currentPlayer = playerList.get(i);
+
+
+            }
+        }
 
     }
 
@@ -64,25 +77,6 @@ public class Game2 {
 
     }
 
-    public static void popCard(int n,List<player> playerList,List<card> cardList) {
-
-        //发n轮牌
-        for (int i = 0; i < n; i++) {
-
-            for (player player : playerList) {
-
-                //取牌
-                card card = cardList.remove(0);
-
-                //发牌
-                player.cardList.add(card);
-
-            }
-
-        }
-
-    }
-
     public static void displayCards(List<player> playerList) {
 
         for (player player : playerList) {
@@ -91,7 +85,7 @@ public class Game2 {
 
     }
 
-    public static void catchGhost(List<player> playerList,List<card> cardList) {
+    public static void popCards(List<player> playerList,List<card> cardList) {
 
         //先从牌库中把牌抽完
         while(true) {
