@@ -316,6 +316,7 @@
       <workItem from="1611875208865" duration="180000" />
       <workItem from="1612068841056" duration="722000" />
       <workItem from="1612227755464" duration="39000" />
+      <workItem from="1613985527466" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="20200103">
       <created>1609811132583</created>
@@ -674,10 +675,11 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="23" y="55" width="1024" height="580" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1609817302421" />
-    <state x="241" y="53" key="FileChooserDialogImpl" timestamp="1611875387762">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="241" y="55" key="FileChooserDialogImpl" timestamp="1613985564399">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="241" y="53" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1611875387762" />
+    <state x="241" y="55" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1613985564399" />
     <state x="444" y="268" key="Github.CreateGistDialog" timestamp="1611750715120">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -742,10 +744,11 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="634" y="267" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.689@0.0.1280.689" timestamp="1609811242478" />
-    <state x="56" y="0" key="new project wizard" timestamp="1612227792502">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="56" y="0" key="new project wizard" timestamp="1613985585191">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1612227792502" />
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1613985585191" />
     <state x="461" y="43" width="625" height="457" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1610954798467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
