@@ -43,18 +43,21 @@
             display: block;
             margin: 0 auto;
         }
+        input{
+            outline: none;
+        }
     </style>
     <%--引入js--%>
     <script src="./js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
-<form method="post" action="/register">
+<form method="post" onsubmit="return false;">
 
     <div class="d1">
-        <label>用户名</label><input name="nickname" type="text" placeholder="请输入用户名">
+        <label>用户名</label><input autocomplete="off" name="nickname" type="text" placeholder="请输入用户名">
     </div>
     <div class="d2">
-        <label>密码</label><input name="password" type="text" placeholder="请输入密码">
+        <label>密码</label><input autocomplete="off" name="password" type="text" placeholder="请输入密码">
     </div>
 
     <div class="d3">
@@ -65,12 +68,13 @@
     </div>
 
     <div class="d4">
-        <input name="extra" type="text" placeholder="请输入具体街道门牌号">
+        <input autocomplete="off" name="extra" type="text" placeholder="请输入具体街道门牌号">
     </div>
 
     <div class="d5">
-        <input type="submit" value="立即注册">
+        <input type="submit" value="立即注册" onclick="handlerRegisterRequest()">
     </div>
+        <div style="color: red;margin: 0 auto" name="hidden_1"></div>
 </form>
 <script>
     /**
@@ -124,6 +128,23 @@
         })
 
     })
+    function handlerRegisterRequest() {
+        $.ajax({
+            url: "/register",
+            type: "POST",
+            /*携带表单值到/register*/
+            data: $("form").serialize(),
+            success(resp) {
+                //存在
+                if (resp === "false") {
+                    $("div[name='hidden_1']").text("已存在此账号,请重新输入账号与密码")
+                }else {
+                    alert("注册成功")
+                    window.location.href = "/login.jsp"
+                }
+            }
+        })
+    }
 </script>
 </body>
 </html>

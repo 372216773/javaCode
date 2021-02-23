@@ -33,6 +33,9 @@
             display: block;
             margin: 40px auto 0px;
         }
+        input{
+            outline: none;
+        }
     </style>
     <script src="js/jquery-1.9.1.min.js"></script>
 </head>
@@ -40,10 +43,10 @@
 <%--在表单中加上onsubmit="return false;"可以阻止表单提交。--%>
 <form onsubmit="return false;">
         <div class="d1">
-            <label>用户名</label><input name="nickname" type="text" placeholder="请输入用户名">
+            <label>用户名</label><input autocomplete="off" name="nickname" type="text" placeholder="请输入用户名">
         </div>
         <div class="d2">
-            <label>密码</label><input name="password" type="password"  placeholder="请输入密码">
+            <label>密码</label><input autocomplete="off" name="password" type="password"  placeholder="请输入密码">
         </div>
         <div style="color: red;margin: 0 auto" name="hidden_1"></div>
         <div class="d3"><input onclick="handlerLoginClick()" type="submit" value="登录"></div>
@@ -61,8 +64,8 @@
                 /*校验成功*/
                 if (resp.code === 666) {
                     /*重定向*/
-                    window.location.href = "/goods"
                     alert("登陆成功")
+                    window.location.href = "/goods/page?currentPage=1&size=5"
                 }else {
                     $("div[name='hidden_1']").text("账号或密码错误")
                 }

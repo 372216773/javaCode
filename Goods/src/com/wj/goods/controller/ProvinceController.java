@@ -27,6 +27,7 @@ public class ProvinceController extends HttpServlet {
             String jsonString = JSON.toJSONString(provinceList);
             //不会乱码
             resp.setContentType("application/json;charset=utf8");
+            //传值给原来的jsp页面
             resp.getWriter().write(jsonString);
 
         } catch (SQLException throwable) {

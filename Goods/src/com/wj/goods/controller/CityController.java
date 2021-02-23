@@ -33,6 +33,7 @@ public class CityController extends HttpServlet {
             resp.setContentType("application/json;charset=utf8");
             //响应返回JSON格式的数据
             String jsonString = JSON.toJSONString(cityList);
+            //传值给jsp页面
             resp.getWriter().write(jsonString);
         } catch (SQLException throwable) {
             throwable.printStackTrace();
