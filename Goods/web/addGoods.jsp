@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: WJ
-  Date: 2021/2/22
-  Time: 22:16
+  Date: 2021/2/24
+  Time: 12:25
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,58 +10,59 @@
 <head>
     <title>添加商品</title>
     <style>
-        form{
-            width: 300px;
-            height: 300px;
-            background: #ffe4c4;
-            margin: 100px auto 0px;
-        }
-        .div_1{
-            margin: 0 auto 40px;
-            width: 300px;
-            height: 20px;
+        h1{
             text-align: center;
-            line-height: 20px;
         }
-        label{
-            width: 40px;
-            display: inline-block;
+        table{
+            margin: 0 auto;
+            border-collapse:collapse;
         }
-        .submit{
-            margin: 40px auto 0px;
+        td{
+            width: 100px;
+            font-size: 20px;
+        }
+        tr{
             display: block;
+            margin-top: 20px;
         }
-        div{
-            margin: 20px auto 0px;
-            width: 222px;
+        input{
+            width: 400px;
         }
-        .icon-upload{
-            display: inline-block;
-            width: 168px;
-        }
-        input:focus{
-            outline: none;
-        }
+        tr
     </style>
     <script src="./js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
-<%--multipart/form-data:传输格式改为多元格式--%>
-<%--自动提交到/goods/add--%>
-<form action="/goods/add" method="post" enctype="multipart/form-data">
-    <div class="div_1">添加商品</div>
-    <div style="margin: 20px auto 0px">
-        <label for="">名称</label>
-        <input autocomplete="off" name="title" type="text" placeholder="请输入名称">
-    </div>
-    <div style="margin: 20px auto 0px">
-        <label for="">图片</label>
-        <input autocomplete="off" class="icon-upload" name="image" type="file">
-    </div>
-    <div style="margin: 20px auto 0px">
-        <label for="">价格</label><input autocomplete="off" name="price" type="text" placeholder="请输入价格">
-    </div>
-    <input style="margin: 10px auto;width: 60px;display: block;" type="submit" placeholder="确认提交">
+<h1>添加商品</h1>
+<form  action="/goods/add" method="post" enctype="multipart/form-data" >
+    <table>
+        <tr>
+            <td>名称</td>
+            <td>
+                <input name="title" type="text">
+            </td>
+        </tr>
+
+        <tr>
+            <td>价格</td>
+            <td><input name="price" type="text"></td>
+        </tr>
+
+        <tr>
+            <td>商品图片</td>
+            <td><input name="image" type="file"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button type="submit" >确认添加</button></td>
+        </tr>
+    </table>
 </form>
+
+
+<script>
+</script>
 </body>
 </html>
+

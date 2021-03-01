@@ -115,8 +115,8 @@
     <div class="head_1">商品列表</div>
     <div class="head_2">
         <div class="head_2_1">
-            <input class="input_search" style="margin-top: 10px;" type="search" placeholder="请输入你想要搜索的商品" >
-            <a class="iconfont icon-sousuo" onclick="" href="#"></a>
+            <input class="input_search" style="margin-top: 10px;" name="searchTitle" type="search" placeholder="请输入你想要搜索的商品" >
+            <a class="iconfont icon-sousuo" onclick="searchGoods()" ></a>
         </div>
         <div class="head_2_2">
             <a href="/member.jsp" class="iconfont icon-xingmingyonghumingnicheng">
@@ -195,20 +195,33 @@
     <div style="margin: 0 auto;width: 260px;">
         <div style="width: 140px;height: 22px;margin: 0 auto;">
             <label>跳转到第</label>
-            <input name="anyPage" style="display: inline-block;width: 40px;height: 20px" class="footer_input" type="search" onkeypress="handlerAnyPage()">
+            <input name="anyPage" style="display: inline-block;width: 40px;height: 20px" class="footer_input" type="search  " onkeypress="handlerAnyPage()">
             <label>页</label>
         </div>
     </div>
 </div>
+<div class="hidden_last" onclick="tag(1)">返回首页</div>
 <script>
+
+    //查找
+    function searchGoods() {
+        $.ajax({
+            url: "/goods/search?title=" + $("input[name='searchTitle']").val(),
+            type: "post",
+            success() {
+                window.location.href = "/searchGoods.jsp"
+            }
+        })
+
+    }
 
     //跳转指定页
     function handlerAnyPage() {
             const page = $("input[name='anyPage']").val()
-            if (0 < page&&page <= ${pageMap.totalPage}) {
-            window.location.href = "/goods/page?currentPage=" + page + "&size=5"
+            if (0 > page||page > ${pageMap.totalPage}) {
+                $("div[name = 'hidden']").text("输入页数有误,请重新输入")
         }else {
-            $("div[name = 'hidden']").text("输入页数有误,请重新输入")
+                window.location.href = "/goods/page?currentPage=" + page + "&size=5"
         }
     }
 
@@ -251,17 +264,7 @@
 
     //修改
     function handlerReplaceGood(id) {
-        $.ajax({
-            //只传有用的信息
-            url: "/goods/replace?id=" + id,
-            type: "post",
-            success(resp) {
-                //修改成功
-                /*if () {
-                    window.location.href = "/goods/currentPage=" + page + "&size=5"
-                }*/
-            }
-        })
+        window.location.href = "/goods/replace?id=" + id
     }
 </script>
 </body>

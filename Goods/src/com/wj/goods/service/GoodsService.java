@@ -69,4 +69,22 @@ public class GoodsService {
 
         return i;
     }
+
+    public Good findGood(String id) throws SQLException {
+
+        return goodsDao.selectGood(id);
+
+    }
+
+    public int updateGood(String id,String title, long price, String image) throws SQLException {
+
+        return goodsDao.update(id,title,price,image);
+
+    }
+
+    public List<Good> searchAll(String title) throws SQLException {
+
+        return goodsDao.searchAll(title);
+
+    }
 }
