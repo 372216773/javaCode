@@ -125,8 +125,6 @@ public class GoodsController extends HttpServlet {
 
     public void insert(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 
-
-
         //parseRequest(req):能够解析请求,fileItems里边存放的是  普通表单条目+文件的表单条目
         List<FileItem> fileItems = servletFileUpload.parseRequest(req);
 
