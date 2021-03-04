@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0e79732-377e-4f94-ada2-44d550b4c58a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaweb01/javaweb01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy/Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy/ProxyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy2/Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy2/ProxyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/proxy2/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e0e79732-377e-4f94-ada2-44d550b4c58a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +43,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614861609534</updated>
-      <workItem from="1614861611065" duration="1940000" />
+      <workItem from="1614861611065" duration="2250000" />
     </task>
+    <task id="LOCAL-00001" summary="spring">
+      <created>1614870091366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614870091366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,8 +60,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1614870090138">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1614870090138" />
     <state width="1237" height="101" key="GridCell.Tab.0.bottom" timestamp="1614861947736">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -91,5 +84,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="101" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1614861947736" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1614870094293">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1614870094293" />
   </component>
 </project>
