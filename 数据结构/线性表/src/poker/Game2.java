@@ -16,6 +16,7 @@ public class Game2 {
 
     public static void main(String[] args) {
 
+
         List<card> cardList = new ArrayList<>();
 
         List<player> playerList = new ArrayList<>();
@@ -27,7 +28,6 @@ public class Game2 {
 
         //初始化扑克牌
         initializeCards(cardList);
-
 
         System.out.println("初始时扑克牌组: ");
         System.out.println(cardList);
@@ -45,11 +45,11 @@ public class Game2 {
         //displayCards(playerList);
 
         //抽牌
-        popCards(playerList,cardList);
+        popCards(playerList, cardList);
 
         //将手中无牌的人排除
         Iterator<player> iterator = playerList.iterator();
-        while(iterator.hasNext()) {
+        while (iterator.hasNext()) {
             if (iterator.next().cardList.isEmpty()) {
                 iterator.next();
             }
@@ -57,7 +57,7 @@ public class Game2 {
 
         Random random = new Random();
         //游戏开始
-        while(true) {
+        while (true) {
             for (int i = 0; i < playerList.size(); i++) {
                 player currentPlayer = playerList.get(i);
 
@@ -69,9 +69,9 @@ public class Game2 {
 
     public static void initializeCards(List<card> cardList) {
 
-        for (String suit : new String[]{"♥","♦","♣","♠"}) {
+        for (String suit : new String[]{"♥", "♦", "♣", "♠"}) {
             for (int rank = 1; rank < 14; rank++) {
-                cardList.add(new card(suit,rank));
+                cardList.add(new card(suit, rank));
             }
         }
 
@@ -85,10 +85,10 @@ public class Game2 {
 
     }
 
-    public static void popCards(List<player> playerList,List<card> cardList) {
+    public static void popCards(List<player> playerList, List<card> cardList) {
 
         //先从牌库中把牌抽完
-        while(true) {
+        while (true) {
 
             for (player player : playerList) {
 
@@ -107,12 +107,10 @@ public class Game2 {
                             iterator.remove();
                         }
                     }
-                }else {
+                } else {
                     player.cardList.add(card);
                 }
-
             }
         }
-
     }
 }

@@ -18,8 +18,11 @@ public class Game1 {
     public static card card;
 
     public static void main(String[] args) {
+
+        //牌组
         List<card> cardList = new ArrayList<>();
 
+        //玩家
         List<player> playerList = new ArrayList<>();
         playerList.add(new player("周润发"));
         playerList.add(new player("刘德华"));
@@ -33,12 +36,12 @@ public class Game1 {
         //初始时牌库中的牌
         System.out.println("初始时牌库中的牌: ");
         System.out.println(cardList);
+
         //洗牌
         Collections.shuffle(cardList);
         System.out.println(cardList);
 
-
-        int n = 5;//发两轮
+        int n = 5;//发五轮
         for (int i = 0; i < n; i++) {
             for (player player : playerList) {
 
@@ -49,13 +52,17 @@ public class Game1 {
                 player.cardList.add(card);
             }
         }
+
+        //牌库中剩余牌
         System.out.println("发完牌后,牌库中的牌: ");
         System.out.println(cardList);
+
         System.out.println("抽牌前: ");
         for (player player : playerList) {
             System.out.println(player.toString() + player.cardList);
         }
 
+        //获胜牌
         card toFindCard = new card("♥", 1);
 
         //周润发赌神技能发动
@@ -85,9 +92,9 @@ public class Game1 {
 
             //取牌
             card drawCard = nextPlayer.cardList.remove(toDrawIndex);
+
             //拿牌
             currentPlayer.cardList.add(drawCard);
-
 
         }
         System.out.println("抽牌后: ");
@@ -97,27 +104,18 @@ public class Game1 {
 
         //周润发第二次赌神技能发动
         System.out.println("周润发第二次赌神技能发动");
-        /*for (player player : playerList) {
-            if (player.name.equals("周润发")) {
-                if (!player.cardList.contains(toFindCard)) {
-                    player.cardList.set(0,toFindCard);
-                }
-            }
-        }*/
         power2(playerList, toFindCard);
+
         for (player player : playerList) {
             System.out.println(player.toString() + player.cardList);
         }
 
+        //开始判定
         for (player player : playerList) {
-//            for (card card : player.cardList) {
-
-            //card.equals(toFindCard)
             if (player.cardList.contains(toFindCard)) {
 
                 System.out.println(player.toString() + "获胜!!!!");
                 return;
-                // }
 
             }
         }
@@ -132,7 +130,6 @@ public class Game1 {
                 cards.add(new card(suit, rank));
 
             }
-
         }
     }
 
@@ -154,8 +151,7 @@ public class Game1 {
                 if (!player.cardList.contains(toFindCard)) {
                     player.cardList.set(0, toFindCard);
                 }
-            }
-            else if (player.cardList.contains(toFindCard)) {
+            } else if (player.cardList.contains(toFindCard)) {
                 player.cardList.set(player.cardList.indexOf(toFindCard), card);
             }
         }
