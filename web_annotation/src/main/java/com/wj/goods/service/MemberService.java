@@ -1,0 +1,13 @@
+package com.wj.goods.service;
+
+import com.wj.goods.annotation.Service;
+import com.wj.goods.dao.MemberDao;
+
+@Service("memberService")
+public class MemberService {
+    private MemberDao memberDao;
+
+    public void add() {
+        memberDao.insert();
+    }
+}

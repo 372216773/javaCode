@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web_解析注解:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbde284a-1966-485e-9e5a-466d0b2e2ddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/artifacts/web__war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/annotation/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/annotation/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/annotation/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/annotation/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/dao/MemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/classes/com/wj/goods/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/out/artifacts/web__war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/annotation/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/dao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/java/com/wj/goods/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/annotation/Component.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/annotation/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/annotation/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/annotation/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/dao/MemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_annotation/target/classes/com/wj/goods/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/dao/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/util/Dom4jUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/java/com/wj/goods/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/META-INF/web_解析xml.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/dao/MemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/util/Dom4jUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/classes/com/wj/goods/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/web_解析xml/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/web_解析xml/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_xml/target/web_解析xml/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_解析xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/goods/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaweb01/src/main/java/com/wj/goods/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/controller/GoodsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/dao/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/service/GoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/util/Dom4jUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/java/com/wj/goods/util/JdbcUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/src/main/resources/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_解析xml/web_解析xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web_xml/web_xml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web__war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/annotation/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/annotation/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/annotation/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/annotation/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/controller/GoodsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/dao/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/dao/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/service/GoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/goods/util/JdbcUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_解析注解.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web_annotation/web_annotation.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1q6NrangyfbjmNjhpdXPJIIvs2l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_annotation" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3402299" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wj\javaCode\web_解析注解" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DispatcherServlet.dispatcher">
+    <configuration name="DispatcherServlet.baseAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wj.goods" />
+      <option name="MAIN_CLASS_NAME" value="com.wj.goods.DispatcherServlet" />
+      <option name="METHOD_NAME" value="baseAnnotation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DispatcherServlet.dispatcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wj.goods" />
+      <option name="MAIN_CLASS_NAME" value="com.wj.goods.DispatcherServlet" />
+      <option name="METHOD_NAME" value="dispatcher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat08" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web_解析注解:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web_解析注解_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64164" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web_解析注解:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DispatcherServlet.baseAnnotation" />
+      <item itemvalue="JUnit.DispatcherServlet.dispatcher" />
+      <item itemvalue="Tomcat Server.tomcat08" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DispatcherServlet.dispatcher" />
+        <item itemvalue="JUnit.DispatcherServlet.baseAnnotation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbde284a-1966-485e-9e5a-466d0b2e2ddf" name="Default Changelist" comment="" />
+      <created>1616396278517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616396278517</updated>
+      <workItem from="1616396279852" duration="431000" />
+      <workItem from="1616396721688" duration="4086000" />
+      <workItem from="1616405534432" duration="144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="216" y="0" key="#Project_Structure" timestamp="1616396913136">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="216" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1616396913136" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616396920100">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1616396920100" />
+    <state x="637" y="72" key="FileChooserDialogImpl" timestamp="1616405636092">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="637" y="72" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1616405636092" />
+    <state width="758" height="134" key="GridCell.Tab.0.bottom" timestamp="1616405512281">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="758" height="134" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1616405512281" />
+    <state width="758" height="134" key="GridCell.Tab.0.center" timestamp="1616405512281">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="758" height="134" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1616405512281" />
+    <state width="758" height="134" key="GridCell.Tab.0.left" timestamp="1616405512280">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="758" height="134" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1616405512280" />
+    <state width="758" height="134" key="GridCell.Tab.0.right" timestamp="1616405512281">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="758" height="134" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1616405512281" />
+    <state width="510" height="134" key="GridCell.Tab.1.bottom" timestamp="1616405512257">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1616405512257" />
+    <state width="510" height="134" key="GridCell.Tab.1.center" timestamp="1616405512255">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1616405512255" />
+    <state width="510" height="134" key="GridCell.Tab.1.left" timestamp="1616405512255">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1616405512255" />
+    <state width="510" height="134" key="GridCell.Tab.1.right" timestamp="1616405512256">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1616405512256" />
+    <state width="510" height="134" key="GridCell.Tab.2.bottom" timestamp="1616405512257">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1616405512257" />
+    <state width="510" height="134" key="GridCell.Tab.2.center" timestamp="1616405512257">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1616405512257" />
+    <state width="510" height="134" key="GridCell.Tab.2.left" timestamp="1616405512257">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1616405512257" />
+    <state width="510" height="134" key="GridCell.Tab.2.right" timestamp="1616405512257">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="510" height="134" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1616405512257" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1616397065181">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1616397065181" />
+  </component>
+</project>

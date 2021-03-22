@@ -127,7 +127,7 @@ public class DispatcherServlet extends HttpServlet {
     /*public static Map<String, Object> initBeanMap() throws DocumentException, ClassNotFoundException, IllegalAccessException, InstantiationException {
         //专门存放className和bean对象(实例化的对象)
         Map<String, Object> beanMap = new HashMap<>();
-        *//*
+
         获得根节点
 
         SAXReader saxReader = new SAXReader();
@@ -135,8 +135,7 @@ public class DispatcherServlet extends HttpServlet {
         //获得根节点名称
         //System.out.println(read.getRootElement().getName());
         //获得根节点 beans
-        Element rootElement = document.getRootElement();*/
-    /*
+        Element rootElement = document.getRootElement();
         //获得根节点 beans
         Element rootElement = Dom4jUtil.getRootElement("application.xml");
         //获得beans节点下的所有的bean元素-->用来创建对象
@@ -167,8 +166,8 @@ public class DispatcherServlet extends HttpServlet {
 
     }*/
 
-    /*//类名首字母转小写
-    public static String toLowerName(Class clazz) {
+    //类名首字母转小写
+    /*public static String toLowerName(Class clazz) {
         //获取类名(为大驼峰形式)
         String name = clazz.getSimpleName();
         //化为字符数组进行单个字母的调整
@@ -187,7 +186,7 @@ public class DispatcherServlet extends HttpServlet {
     }*/
 
 
-/*
+/**
  * 基于注解的解析方式,生成对象的类型还得看注解中的内容
  */
     /*
@@ -221,13 +220,10 @@ public class DispatcherServlet extends HttpServlet {
                 }
                 beanFactory.put(beanName, o);
             }
-            */
-    /*
             一共两种获取到beanName的方式
             1.直接通过注解的值获取
             2.若注解中未赋值,则使用类名的小驼峰形式
-             */
-    /*
+
             if (clazz.isAnnotationPresent(Controller.class)) {
                 String beanName = clazz.getAnnotation(Controller.class).value();
                 Object o = clazz.newInstance();
@@ -304,7 +300,8 @@ public class DispatcherServlet extends HttpServlet {
         });
     }
 
-    *//**
+    */
+/**
  * 扫描指定包下的所有类
  *
  * @param basePackagePath 扫描的路径
@@ -339,7 +336,8 @@ public class DispatcherServlet extends HttpServlet {
  * @throws InstantiationException
  * @throws DocumentException
  * @throws IllegalAccessException
- *//*
+ */
+/*
     private static void baseXml() throws ClassNotFoundException, InstantiationException, DocumentException, IllegalAccessException {
         //1.解析xml,得到一个存放className和Object对象的Map<beanName,Object>的容器
         Map<String, Object> beanMap = initBeanMap();
