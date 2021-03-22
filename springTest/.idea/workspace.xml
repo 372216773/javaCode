@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e79732-377e-4f94-ada2-44d550b4c58a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../数据结构/线性表/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/线性表/src/BinaryTree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/线性表/src/BinaryTree/TreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据结构/线性表/src/OJ/YangHuiSanJiao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../数据结构/线性表/src/OJ/YangHuiSanJiao/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
       <updated>1614861609534</updated>
       <workItem from="1614861611065" duration="2344000" />
       <workItem from="1614993618282" duration="71000" />
+      <workItem from="1616373719249" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1614870091366</created>

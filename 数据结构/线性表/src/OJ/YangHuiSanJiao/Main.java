@@ -8,6 +8,19 @@ public class Main {
     public static List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>> outerList = new ArrayList<>();
+        /*for (int i = 0; i < numRows; i++) {
+            List<Integer> inner = new ArrayList<>();
+            for (int j = 0; j <= i; j++) {
+                if (j == 0 || j == i) {
+                    inner.add(1);
+                } else {
+                    Integer integer1 = outerList.get(i - 1).get(j - 1);
+                    Integer integer2 = outerList.get(i - 1).get(j);
+                    inner.add(1,integer1+integer2);
+                }
+            }
+            outerList.add(inner);
+        }*/
         for (int i = 0; i < numRows; i++) {
             List<Integer> innerList = new ArrayList<>();
             for (int j = 0; j <= i; j++) {

@@ -364,7 +364,6 @@ public class DispatcherServlet extends HttpServlet {
         beanMap.forEach((beanName, obj) -> {
             //获得class对象
             //返回引用obj运行时真正所指的对象所属的类的Class的对象
-            //(因为:子对象的引用可能会赋给父对象的引用变量中)
             Class clazz = obj.getClass();
             //获取本类中定义的所有属性(公有和私有)
             Field[] declaredFields = clazz.getDeclaredFields();

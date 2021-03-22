@@ -12,7 +12,15 @@ public class TreeTraversal {
     private static int count;
     private static int leaves;
 
-    //前序遍历
+    /**
+     *前序遍历
+     * {
+     *     打印;          //1.打印根节点
+     *     root.left;    //2.把root.left子树遍历完
+     *     root.right;   //3.把root.right字数遍历完
+     * }
+     * @param root 根节点
+     */
     public static void preTraversal(TreeNode root) {
         //遍历的前提是root不为空
         if (root != null) {
@@ -25,7 +33,15 @@ public class TreeTraversal {
         }
     }
 
-    //中序遍历
+    /**
+     * 中序遍历
+     * {
+     *     root.left;    //1.把root.left子树遍历完
+     *     打印;         //2.打印根节点
+     *     root.right;  //3.把root.right字数遍历完
+     * }
+     * @param root 根节点
+     */
     public static void inTraversal(TreeNode root) {
         if (root != null) {
             //1.按照中序的方式,递归处理该节点的左子树
@@ -37,7 +53,15 @@ public class TreeTraversal {
         }
     }
 
-    //后序遍历
+    /**
+     * 后序遍历
+     * {
+     *     root.left;       //1.把root.left的子树遍历完
+     *     root.right;      //2.把root.right的子树遍历完
+     *     打印;             //3.打印根节点
+     * }
+     * @param root
+     */
     public static void postTraversal(TreeNode root) {
         if (root != null) {
             //1.处理左子树
@@ -159,6 +183,23 @@ public class TreeTraversal {
             return true;
         }
         return contains(root.right,v);
+    }
+
+    public static TreeNode contains1(TreeNode root,String v) {
+        if (root==null) {
+            return null;
+        }
+        if (root.value.equals(v)) {
+            return root;
+        }
+        TreeNode left = contains1(root.left,v);
+        //如何根据left判断是否找到v
+        //left==null意味着没有找到
+        //left!=null意味着找到了
+        if (left!=null) {
+            return left;
+        }
+        return contains1(root.right,v);
     }
 
     public static void main(String[] args) {
