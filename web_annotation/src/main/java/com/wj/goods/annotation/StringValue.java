@@ -5,10 +5,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE)
+//作用范围:属性
+@Target(ElementType.FIELD)
 //保留级别:运行时
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Controller {
-    String value() default "";
+public @interface StringValue {
+    String value();
 
 }

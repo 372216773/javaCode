@@ -178,13 +178,6 @@ public class DispatcherServlet extends HttpServlet {
         return new String(chars);
     }*/
 
-    /*public static void main(String[] args) throws IOException, ClassNotFoundException, DocumentException, IllegalAccessException, InstantiationException {
-
-        dispatcher();
-        //System.out.println(handlerMapping);
-
-    }*/
-
 
 /**
  * 基于注解的解析方式,生成对象的类型还得看注解中的内容
@@ -328,6 +321,7 @@ public class DispatcherServlet extends HttpServlet {
     }
 
     */
+
 /**
  * Spring 1.0 2.0 基于Xml解析
  * 基于Xml解析创建Bean容器(Bean工厂),并且给beanMap中已创建好的对象注入属性

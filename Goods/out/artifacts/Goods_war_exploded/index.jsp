@@ -9,6 +9,7 @@
 <html>
   <head>
     <title>商品管理系统</title>
+    <link rel="icon" href="">
     <style>
 
       a:link {

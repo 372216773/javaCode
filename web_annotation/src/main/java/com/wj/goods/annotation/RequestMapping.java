@@ -5,10 +5,14 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE)
+//作用范围:类
+@Target({ElementType.TYPE,ElementType.METHOD})
 //保留级别:运行时
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Controller {
-    String value() default "";
+/*
+    请求映射
+ */
+public @interface RequestMapping {
+    String value();//
 
 }
