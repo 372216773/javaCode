@@ -17,17 +17,17 @@ public class GoodsController {
 
     @RequestMapping("remove")
     public void remove(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println("删除操作");
+        System.out.println("Hello! " + request.getParameter("name") + " 您正在进行删除操作");
     }
 
     @RequestMapping("/add")
     public void add(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println("添加操作");
+        System.out.println("Hello! " + request.getParameter("name") + " 您正在进行添加操作");
     }
 
     @RequestMapping("//modify")
     public void modify(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println("修改操作");
+        System.out.println("Hello! " + request.getParameter("name") + " 您正在进行修改操作");
     }
 
 }
