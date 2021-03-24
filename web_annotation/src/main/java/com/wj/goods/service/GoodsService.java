@@ -3,16 +3,21 @@ package com.wj.goods.service;
 import com.wj.goods.annotation.Qualifier;
 import com.wj.goods.annotation.Service;
 import com.wj.goods.dao.GoodsDao;
-import com.wj.goods.dao.MemberDao;
+
+import java.util.List;
+import java.util.Map;
 
 @Service("goodsService")
 public class GoodsService {
 
-    @Qualifier
+    @Qualifier()
     private GoodsDao goodsDao;
-    @Qualifier
-    private MemberDao memberDao;
-    public void remove() {
-        goodsDao.delete();
+
+    public void remove(String id) {
+        goodsDao.delete(id);
+    }
+
+    public List<Map<String,Object>> list() {
+        return goodsDao.listAll();
     }
 }

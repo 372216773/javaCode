@@ -1,14 +1,18 @@
 package com.wj.goods.dao;
 
+import com.wj.goods.annotation.Query;
 import com.wj.goods.annotation.Repository;
+import com.wj.goods.annotation.Update;
+
+import java.util.List;
+import java.util.Map;
 
 @Repository("goodsDao")
-public class GoodsDao {
-    public void delete() {
-        System.out.println("goodsDao的remove()");
-    }
+public interface GoodsDao {
 
-    public void insert( ) {
-        System.out.println("goodsDao的insert()");
-    }
+    @Update("delete from goods where id=?")
+    Integer delete(String id);
+
+    @Query("select * from goods")
+    List<Map<String,Object>> listAll();
 }

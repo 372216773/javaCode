@@ -13,8 +13,6 @@ public class MemberController {
     @StringValue("wj")
     private String vipName;
 
-    public void add() {
-        memberService.add();
-    }
+    public void add() {}
 
 }
