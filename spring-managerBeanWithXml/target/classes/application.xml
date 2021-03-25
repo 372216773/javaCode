@@ -13,15 +13,23 @@
     默认使用无参数的构造器来创建对象的
     -->
     <!--在这里相当于创建了两个对象,在使用时就不是同一个对象-->
-    <bean name="user" class="com.wj.spring.entity.User" scope="prototype">
-
+    <bean init-method="init" destroy-method="destroy" name="user" class="com.wj.spring.entity.User" scope="prototype">
+        <!--用构造器注入属性,首先必须保证类中有一个与要注入属性对应的构造方法-->
+        <constructor-arg name="name" value="小花"/>
+        <constructor-arg name="password" value="244"/>
     </bean>
-    <bean name="user2" class="com.wj.spring.entity.User" scope="singleton"></bean>
+    <bean name="user2" class="com.wj.spring.entity.User">
+        <!--setter方法注入 property的name属性值为: setter方法的名字的首字母小写-->
+        <property name="name" value="wj"/>
+        <property name="password" value="123"/>
+        <property name="gender" value="man"/>
+    </bean>
     <!--静态工厂-->
-    <bean name="user3" class="com.wj.spring.entity.User" factory-method="newInstance"></bean>
+    <bean name="user3" class="com.wj.spring.entity.User" factory-method="newInstance"/>
     <!--实例工厂-->
-    <bean id="userFactory" class="com.wj.spring.entity.UserFactory"></bean>
-    <bean name="user4" class="com.wj.spring.entity.UserFactory" factory-bean="userFactory" factory-method="getInstance"></bean>
+    <bean id="userFactory" class="com.wj.spring.entity.UserFactory"/>
+    <bean name="user4" class="com.wj.spring.entity.UserFactory" factory-bean="userFactory"
+          factory-method="getInstance"/>
 
     <!--name默认为class的属性值-->
     <!--<bean  class="com.wj.spring.entity.User"></bean>-->

@@ -9,7 +9,7 @@ public class Main {
         //对象工厂,管理对象(beanFactory)
         //不传xml文件时,beanFactory初始化错误,所以bean工厂的配置文件不是写死的(固定的),所以要动态配置文件
         //获取beanFactory管理对象
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application.xml");
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("application.xml");
         //这是在xml文件中配置过的名称,要能对应xml文件中配置的bean
         //多例和单例时体现在getBean()
         //当scope设置为单例时,多个引用获取同一个bean时,则多个引用指向同一个对象
@@ -22,6 +22,6 @@ public class Main {
         System.out.println(bean0);
         System.out.println(bean1);
         System.out.println(bean2);
-
+        applicationContext.close();
     }
 }
