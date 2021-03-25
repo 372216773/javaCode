@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--schema约束-->
+
+    <!--
+    id/name不配置,id/name默认为全类名
+    class:需要被管理的对象
+    scope:默认为singleton(单例模式),  prototype(多例对象)
+    scope为单例时,在容器初始化时,就会创建对象
+    scope为多例时,在容器初始化的时候并不会创建对象,在getBean()才会创建对象
+    默认使用无参数的构造器来创建对象的
+    -->
+    <!--在这里相当于创建了两个对象,在使用时就不是同一个对象-->
+    <bean name="user" class="com.wj.spring.entity.User" scope="prototype">
+
+    </bean>
+    <bean name="user2" class="com.wj.spring.entity.User" scope="singleton"></bean>
+    <!--静态工厂-->
+    <bean name="user3" class="com.wj.spring.entity.User" factory-method="newInstance"></bean>
+    <!--实例工厂-->
+    <bean id="userFactory" class="com.wj.spring.entity.UserFactory"></bean>
+    <bean name="user4" class="com.wj.spring.entity.UserFactory" factory-bean="userFactory" factory-method="getInstance"></bean>
+
+    <!--name默认为class的属性值-->
+    <!--<bean  class="com.wj.spring.entity.User"></bean>-->
+
+</beans>

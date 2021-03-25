@@ -8,6 +8,8 @@ import org.dom4j.Element;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,13 +23,13 @@ public class DispatcherServlet {
 
 
     @Test
-    public void dispatcher() throws ClassNotFoundException, InstantiationException, DocumentException, IllegalAccessException {
+    public void dispatcher() throws ClassNotFoundException, InstantiationException, DocumentException, IllegalAccessException, NoSuchMethodException, NoSuchFieldException, InvocationTargetException {
         baseXml();
     }
     /**基于xml解析创建bean容器(bean工厂),并且注入属性
      *
      */
-    public void baseXml() throws DocumentException, IllegalAccessException, InstantiationException, ClassNotFoundException {
+    public void baseXml() throws DocumentException, IllegalAccessException, InstantiationException, ClassNotFoundException, NoSuchMethodException, NoSuchFieldException, InvocationTargetException {
         //1.解析xml文件,得到一个存放className和和Object的Map<beanName,Object>的容器
         Map<String, Object> beanMap = initBeanMap();
         //2.给属性注入值
@@ -94,7 +96,7 @@ public class DispatcherServlet {
      *
      * @return 返回一个map中
      */
-    public Map<String, Object> initBeanMap() throws DocumentException, ClassNotFoundException, IllegalAccessException, InstantiationException {
+    public Map<String, Object> initBeanMap() throws DocumentException, ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchFieldException, NoSuchMethodException, InvocationTargetException {
         Map<String, Object> classNameMap = new HashMap<>();
 
         //最外层的标签 beans
@@ -115,7 +117,13 @@ public class DispatcherServlet {
             //产生这个Class类对象的一个实例，
             //调用该类无参的构造方法，作用等同于new一个对象
             Object obj = clazz.newInstance();
-
+            if (beanElement.attribute("factory-method")!=null) {
+                String methodName = beanElement.attributeValue("factory-method");
+                Method method = clazz.getDeclaredMethod(methodName);
+                //调用静态方法
+                Class<?> type = method.getReturnType();
+                obj = method.invoke(null, (Object) null);
+            }
             classNameMap.put(beanName, obj);
         }
         return classNameMap;
