@@ -1,5 +1,6 @@
 package com.wj.aspectj;
 
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
@@ -15,6 +16,7 @@ public class MyAspect {
         System.out.println("前置通知");
     }
 
+    @After("execution(* com.wj.aspectj.service.UserService.*User(..))")
     public void after() {
         System.out.println("后置通知");
     }
