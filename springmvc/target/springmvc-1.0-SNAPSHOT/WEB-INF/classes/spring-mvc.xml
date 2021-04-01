@@ -15,7 +15,6 @@
     <!--高级功能注解的支持-->
     <mvc:annotation-driven/>
 
-
     <!--三个控制器都是与mvc相关,springboot就不用配置-->
 
     <!--注册处理器映射器-->
@@ -27,7 +26,6 @@
 
     <!--注册视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
-
 
     <!--开启springMVC注解扫描,主要扫描的是处理器的注解 controller包下的@Controller @RequestMapping @GetMapping @postMapping-->
     <context:component-scan base-package="com.wj.spring.controller"/>

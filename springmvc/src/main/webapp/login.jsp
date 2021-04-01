@@ -15,8 +15,5 @@
     <title>Title</title>
 </head>
 <body>
-name:${list.name}
-<br>
-password:${list.password}
 </body>
 </html>
