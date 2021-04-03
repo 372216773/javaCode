@@ -4,15 +4,13 @@ import com.wj.goods.DispatcherServlet;
 import com.wj.goods.annotation.*;
 import com.wj.goods.util.JdbcUtil;
 import org.apache.commons.dbutils.handlers.MapListHandler;
+import sun.security.krb5.internal.PAData;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
+import java.lang.reflect.*;
 import java.net.URL;
 import java.util.*;
 
@@ -161,11 +159,13 @@ public class ContextLoadListener implements ServletContextListener {
                             String sql = method.getAnnotation(Query.class).value();
                             //需要执行sql语句,引入queryRunner
                             //返回的类型应与接口中方法定义的类型相同
-                            return JdbcUtil.getQueryRunner().query(sql, new MapListHandler());
+                            Object[] params = new Object[]{};
+                            return JdbcUtil.getQueryRunner().query(sql,params ,new MapListHandler());
                         }
                         if (method.isAnnotationPresent(Update.class)) {
                             //增删改操作
                             String sql = method.getAnnotation(Update.class).value();
+                            //args就是参数
                             return JdbcUtil.getQueryRunner().update(sql, args);
                         }
                         return null;

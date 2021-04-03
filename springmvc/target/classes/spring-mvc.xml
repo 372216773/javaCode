@@ -15,6 +15,18 @@
     <!--高级功能注解的支持-->
     <mvc:annotation-driven/>
 
+    <!--配置拦截器-->
+    <mvc:interceptors>
+        <!--全局拦截器-->
+        <bean class="com.wj.spring.interceptor.MyAllRequestInterceptor"/>
+        <mvc:interceptor>
+            <!--拦截器要拦截的请求(路径),通配符/**-->
+            <mvc:mapping path="/user/login"/>
+            <!--配置拦截器-->
+            <bean class="com.wj.spring.interceptor.MyUserInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
     <!--三个控制器都是与mvc相关,springboot就不用配置-->
 
     <!--注册处理器映射器-->
