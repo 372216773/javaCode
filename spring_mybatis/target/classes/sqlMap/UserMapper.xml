@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace的值表示-->
+<mapper namespace="test">
+    <!--动态代理会去解析xml,找到id与抽象方法名称相同的select标签-->
+    <!--id:抽象方法的名称,parameterType:参数类型,resultType:返回值类型,会自动封装-->
+    <select id="selectById" parameterType="int" resultType="com.wj.entity.User">
+        select *
+        from user
+        where id=#{id}
+    </select>
+    <select id="selectByName" parameterType="string" resultType="com.wj.entity.User">
+        select *
+        from user
+        where name =#{name}
+    </select>
+</mapper>
+<!--映射文件-->
