@@ -2,8 +2,16 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!--namespace对应接口-->
 <mapper namespace="com.wj.mapper.UserMapper">
+    <!--将sql查询结果映射为Java对象-->
+    <resultMap id="userMap" type="com.wj.entity.User">
+        <!--对象属性值与sql返回列名不同时,要设置对应关系-->
+        <!--property:Java对象属性名 column:sql返回结果列名-->
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="age" column="age"/>
+    </resultMap>
     <!--id对应方法名-->
-    <select id="selectById" parameterType="java.lang.Integer" resultType="com.wj.entity.User">
+    <select id="selectById" parameterType="java.lang.Integer" resultType="user">
         select *
         from user
         where id = #{value}
