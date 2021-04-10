@@ -87,5 +87,14 @@ public class Main {
         List<User> users2 = mapper.selectById1(user2);
         System.out.println(users2);
 
+        //多个参数
+        List<User> users3 = mapper.selectByIdAndName(3, "wj");
+        System.out.println(users3);
+
+        //多表联查,一对一,一对多
+        List<User> users4 = mapper.listById(2);
+        System.out.println(users4);
+
+
     }
 }

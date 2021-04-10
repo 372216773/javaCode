@@ -1,9 +1,13 @@
 package com.wj.entity;
 
+import java.util.List;
+
 public class User {
     private Integer id;
     private String name;
     private Integer age;
+    private Address address;
+    private List<Role> roles;
 
     @Override
     public String toString() {
@@ -11,6 +15,8 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", address=" + address +
+                ", roles=" + roles +
                 '}';
     }
 
@@ -38,4 +44,19 @@ public class User {
         this.age = age;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
 }

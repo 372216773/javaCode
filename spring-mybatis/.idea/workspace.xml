@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12df2262-9568-443f-afc2-f3af0e8b67b0" name="Default Changelist" comment="" />
+    <list default="true" id="12df2262-9568-443f-afc2-f3af0e8b67b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Xml File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -100,7 +109,8 @@
       <workItem from="1617933390784" duration="4200000" />
       <workItem from="1617965784743" duration="5549000" />
       <workItem from="1617972800118" duration="10000" />
-      <workItem from="1618021340299" duration="5184000" />
+      <workItem from="1618021340299" duration="7062000" />
+      <workItem from="1618036132647" duration="4282000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1617889739631</created>
@@ -144,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618031477926</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql">
+      <created>1618031865689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618031865689</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql">
+      <created>1618031958072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618031958072</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,42 +190,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1617937493808" />
-    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1617934793153">
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1618041342201">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1617934793153" />
-    <state x="487" y="0" key="CommitChangelistDialog2" timestamp="1618031476434">
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1618041342201" />
+    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1618031956656">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="487" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1618031476434" />
+    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1618031956656" />
     <state x="489" y="36" key="FileChooserDialogImpl" timestamp="1617878814288">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="489" y="36" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1617878814288" />
-    <state width="1236" height="209" key="GridCell.Tab.0.bottom" timestamp="1618025729262">
+    <state width="784" height="209" key="GridCell.Tab.0.bottom" timestamp="1618042005084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="209" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618025729262" />
-    <state width="1236" height="209" key="GridCell.Tab.0.center" timestamp="1618025729262">
+    <state width="784" height="209" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
+    <state width="784" height="209" key="GridCell.Tab.0.center" timestamp="1618042005084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="209" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1618025729262" />
-    <state width="1236" height="209" key="GridCell.Tab.0.left" timestamp="1618025729262">
+    <state width="784" height="209" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
+    <state width="784" height="209" key="GridCell.Tab.0.left" timestamp="1618042005084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="209" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1618025729262" />
-    <state width="1236" height="209" key="GridCell.Tab.0.right" timestamp="1618025729262">
+    <state width="784" height="209" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
+    <state width="784" height="209" key="GridCell.Tab.0.right" timestamp="1618042005084">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="209" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1618025729262" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1617937687408">
+    <state width="784" height="209" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1618036096700">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1617937687408" />
-    <state x="231" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618031702986">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1618036096700" />
+    <state x="231" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618031972839">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="231" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1618031702986" />
+    <state x="231" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1618031972839" />
+    <state x="650" y="84" width="593" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1618041842125">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="650" y="84" width="593" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1618041842125" />
     <state x="297" y="161" width="672" height="677" key="run.anything.popup" timestamp="1617877711009">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
