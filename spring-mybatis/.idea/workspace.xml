@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12df2262-9568-443f-afc2-f3af0e8b67b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wj/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,9 @@
       <workItem from="1617965784743" duration="5549000" />
       <workItem from="1617972800118" duration="10000" />
       <workItem from="1618021340299" duration="7062000" />
-      <workItem from="1618036132647" duration="4282000" />
+      <workItem from="1618036132647" duration="4600000" />
+      <workItem from="1618043277719" duration="606000" />
+      <workItem from="1618214677624" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1617889739631</created>
@@ -168,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618031958072</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql &#10;4.多表连接查询(一对一 association,一对多 collection)">
+      <created>1618042522898</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618042522898</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +181,8 @@
     <MESSAGE value="mybatis" />
     <MESSAGE value="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作" />
     <MESSAGE value="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql" />
+    <MESSAGE value="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql &#10;4.多表连接查询(一对一 association,一对多 collection)" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis基础操作&#10;1.过时操作&#10;2.流行的--&gt;利用动态代理进行的操作&#10;3.动态sql &#10;4.多表连接查询(一对一 association,一对多 collection)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="33" y="202" key="#SQL_Dialects" timestamp="1618022809074">
@@ -194,42 +197,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1618041342201" />
-    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1618031956656">
+    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1618042522148">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1618031956656" />
+    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1618042522148" />
     <state x="489" y="36" key="FileChooserDialogImpl" timestamp="1617878814288">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="489" y="36" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1617878814288" />
-    <state width="784" height="209" key="GridCell.Tab.0.bottom" timestamp="1618042005084">
+    <state width="784" height="209" key="GridCell.Tab.0.bottom" timestamp="1618042548112">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="209" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
-    <state width="784" height="209" key="GridCell.Tab.0.center" timestamp="1618042005084">
+    <state width="784" height="209" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618042548112" />
+    <state width="784" height="209" key="GridCell.Tab.0.center" timestamp="1618042548112">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="209" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
-    <state width="784" height="209" key="GridCell.Tab.0.left" timestamp="1618042005084">
+    <state width="784" height="209" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1618042548112" />
+    <state width="784" height="209" key="GridCell.Tab.0.left" timestamp="1618042548112">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="209" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
-    <state width="784" height="209" key="GridCell.Tab.0.right" timestamp="1618042005084">
+    <state width="784" height="209" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1618042548112" />
+    <state width="784" height="209" key="GridCell.Tab.0.right" timestamp="1618042548112">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="784" height="209" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1618042005084" />
+    <state width="784" height="209" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1618042548112" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1618036096700">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1618036096700" />
-    <state x="231" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618031972839">
+    <state x="231" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618042524872">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="231" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1618031972839" />
+    <state x="231" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1618042524872" />
     <state x="650" y="84" width="593" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1618041842125">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="650" y="84" width="593" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1618041842125" />
+    <state x="0" y="42" key="new project wizard" timestamp="1618214982484">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="42" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1618214982484" />
     <state x="297" y="161" width="672" height="677" key="run.anything.popup" timestamp="1617877711009">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
