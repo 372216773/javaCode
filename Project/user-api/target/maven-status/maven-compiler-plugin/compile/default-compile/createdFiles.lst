@@ -1,0 +1,17 @@
+com\wj\project\entity\County.class
+com\wj\project\controller\AddressController.class
+com\wj\project\controller\UserController.class
+com\wj\project\service\CountyService.class
+com\wj\project\service\CityService.class
+com\wj\project\entity\Address.class
+com\wj\project\service\AddressService.class
+com\wj\project\entity\City.class
+com\wj\project\service\ProvinceService.class
+com\wj\project\mapper\AddressMapper.class
+com\wj\project\entity\Province.class
+com\wj\project\entity\User.class
+com\wj\project\mapper\CountyMapper.class
+com\wj\project\mapper\CityMapper.class
+com\wj\project\mapper\ProvinceMapper.class
+com\wj\project\mapper\UserMapper.class
+com\wj\project\entity\vo\AddressVo.class

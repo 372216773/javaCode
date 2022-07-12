@@ -1,0 +1,22 @@
+form {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 360px;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+input {
+    margin-left: 40px;
+}

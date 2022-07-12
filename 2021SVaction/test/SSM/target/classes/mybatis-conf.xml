@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <typeAlias type="com.wj.ssm.entity.User" alias="user"/>
+    </typeAliases>
+    <!--当使用连接池的时候,就不需要配置environment-->
+
+    <!--在Spring中配置扫描mapper,不需要配置-->
+    <mappers>
+
+    </mappers>
+</configuration>

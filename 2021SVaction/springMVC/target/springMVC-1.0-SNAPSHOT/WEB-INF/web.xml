@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<!--老版本的声明, isELIgnored默认是关闭的-->
+
+<web-app>
+
+  <!--Spring 的配置文件-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+
+  <!--Spring提供了这个 ContextLoaderListener 监听器, 这个监听器会监听 tomcat 的启动,在启动时初始化 Spring 容器-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!--配置 SpringMVC 前端控制器-->
+  <servlet>
+    <servlet-name>dispatcherServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
+    <!--配置 SpringMVC 的初始化参数-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring-mvc.xml</param-value>
+    </init-param>
+    <!--大于0:代表 tomcat 启动时加载这个 Servlet,小于等于0:代表第一次访问时加载这个 Servlet (实例化并调用其init()方法)-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!--这个名为 dispatcherServlet 的 servlet 接受 *.do 形式的请求-->
+  <servlet-mapping>
+    <servlet-name>dispatcherServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+</web-app>

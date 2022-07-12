@@ -1,0 +1,79 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*包含以下五种的链接*/
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+    color: #31abff;
+}
+
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #adadad;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    background-color: #3c4043;
+    color: white;
+}
+
+a:active {
+    background-color: white;
+    color: black;
+}
+div{
+    margin-bottom: 20px;
+}
+input{
+    margin-top: 20px;
+}

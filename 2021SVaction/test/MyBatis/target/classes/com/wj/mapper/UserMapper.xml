@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wj.mapper.UserMapper">
+    <!--<resultMap id="userMap" type="com.wj.entity.User">
+        <id property="id" column="id"/>
+        <result property="mname" column="name"/>
+        <result property="age" column="age"/>
+    </resultMap>-->
+
+    <!--<select id="selectById" parameterType="Integer" resultMap="userMap">
+        select *
+        from user
+        where id = #{value};
+    </select>
+
+    <select id="findBySex" parameterType="String" resultType="user">
+        select *
+        from user
+        where age = #{value};
+    </select>-->
+
+    <!--<select id="listByUser" parameterType="com.wj.entity.User" resultType="com.wj.entity.User">
+        select * from user
+        <where>
+            <if test="nickname!=null">
+                nickname=#{nickname}
+            </if>
+            <if test="password!=null">
+                and password=#{password}
+            </if>
+        </where>
+    </select>
+    <select id="listInId" parameterType="com.wj.entity.User" resultType="com.wj.entity.User">
+        select *
+        from user
+        <where>
+            <foreach collection="list" item="id" open="id in (" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+    <select id="listById" resultType="com.wj.entity.User" parameterType="com.wj.entity.User">
+        select *
+        from user
+        <where>
+            <choose>
+                <when test="id!=null">
+                    id = 1
+                </when>
+                <when test="name!=null">
+                    id = 2
+                </when>
+                <otherwise>
+                    id = 3
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <update id="updateById" parameterType="user">
+        update user
+        <set>
+            <if test="nickname!=null">
+                nickname =#{nickname}
+            </if>
+        </set>
+        <where>
+            id =#{id}
+        </where>
+    </update>-->
+    <!--<select id="findById" resultType="com.wj.entity.User">
+        select * from user where id = #{value}
+    </select>-->
+    <select id="findByUser" resultType="com.wj.entity.User">
+        select * from user where nickname = #{nickname}
+    </select>
+    <select id="findByNicknameOrPassword" resultType="com.wj.entity.User">
+        select * from user where nickname=#{param1} or password=#{param2}
+    </select>
+
+
+    <resultMap id="UserAddressMap" type="com.wj.entity.User">
+        <id property="id" column="uid"/>
+        <result property="nickname" column="nickname"/>
+        <result property="password" column="password"/>
+        <association property="address" javaType="com.wj.entity.Address">
+            <id property="id" column="uid"/>
+            <result property="city" column="city"/>
+            <result property="prov" column="prov"/>
+        </association>
+
+        <collection property="roles" ofType="com.wj.entity.Role">
+            <id property="id" column="rid"/>
+            <result property="name" column="rname"/>
+            <result property="descp" column="rdescp"/>
+        </collection>
+    </resultMap>
+    <select id="findById" resultMap="UserAddressMap">
+                select user.id    uid,
+               user.nickname,
+               user.password,
+               role.id    rid,
+               role.name  rname,
+               role.descp rdescp,
+               address.prov,
+               address.city
+        from user
+                 inner join role
+                 inner join user_role_rel urr
+                 inner join address
+                            on user.id = urr.uid and role.id = urr.rid and address.id = urr.uid
+        where user.id = #{id}
+    </select>
+</mapper>
