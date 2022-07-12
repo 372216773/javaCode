@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/GoodsShow/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mavenTest/childMaven/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/servlet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tankWar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/designpattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/homework/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/SSM/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/July21/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mavenTest/childMaven2/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/MyBatis/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/Springboot/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DBUtils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/July17/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring-ioc/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Jsp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/July19/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/SSM/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JUC/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/socket/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mavenTest/webapp/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JVM/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/springMVC/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/Springboot/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/io流/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GoodsShow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/数据结构/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/July28/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mavenTest/childMaven3/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mavenTest/childMaven3/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jedis/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/test/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jedis/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/July20/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hsp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xml/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xmlParse/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spring-web/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/servlet/resource" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,101 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/*包含以下五种的链接*/
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+    color: #31abff;
+}
+
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+    text-decoration: none;
+}
+
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    background-color: #3c4043;
+    color: white;
+}
+
+a:active {
+    background-color: white;
+    color: black;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    background-color: #faebd7;
+    border: 1px solid black;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_province {
+    display: flex;
+    margin-top: 10px;
+    width: 230px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    margin-top: 10px;
+}
+.label_desc {
+    display: flex;
+    width: 170px;
+}
+.submit {
+    width: 170px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #adadad;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+.submit:visited {
+    text-decoration: none;
+}
+.submit:hover {
+    cursor: pointer;
+    background-color: #3c4043;
+    color: white;
+}
+.submit:active {
+    background-color: white;
+    color: black;
+}
+.select_option {
+    width: 230px;
+    height: 33px;
+}

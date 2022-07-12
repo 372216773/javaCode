@@ -1,0 +1,11 @@
+com\wj\springboot\interceptor\LogInterceptor.class
+com\wj\springboot\entity\User.class
+com\wj\springboot\service\UserService.class
+com\wj\springboot\mapper\GoodsMapper.class
+com\wj\springboot\Application.class
+com\wj\springboot\conf\MvcConfig.class
+com\wj\springboot\mapper\UserMapper.class
+com\wj\springboot\controller\UserController.class
+com\wj\springboot\entity\Goods.class
+com\wj\springboot\handler\MyExceptionHandler.class
+com\wj\springboot\controller\GoodsController.class

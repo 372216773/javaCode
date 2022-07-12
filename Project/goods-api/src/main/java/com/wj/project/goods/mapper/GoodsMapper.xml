@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wj.project.goods.mapper.GoodsMapper">
+
+    <!--#{}:以占位符拼接-->
+    <select id="listByTitleWithNgram" resultType="com.wj.project.goods.entity.Goods">
+        select * from goods where match(title) against(#{title}) limit #{start},#{size};
+    </select>
+    <select id="totalByTitleWithNgram" resultType="java.lang.Long">
+        select count(*) from goods where match(title) against(#{title});
+    </select>
+</mapper>

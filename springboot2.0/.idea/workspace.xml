@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b79ae0d7-bf82-40c7-acca-830ff54b004d" name="Default Changelist" comment="springbootTest&#10;出现导包有问题,直接重新创建一个项目">
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/CyclicBarriDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Demo/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Demo/children.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/ReentrantReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/StampedLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Synchronized/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Synchronized/DemoBetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Unsafe/unSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AccountDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicAccumulator/longAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicArray/atomicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicInteger/atomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicReference/atomicMarkableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicReference/atomicReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicReference/atomicStampedReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicReference/matterABA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/AtomicUpdater/atomicUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/atomic/SlowMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/FutureTask/FutureTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/FutureTask/FutureTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/Runnable/Runnable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/Runnable/Runnable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/Thread/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/createThread/Thread/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/deadLock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/jMM/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/interrupt_blocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/interrupt_common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/parkAndUnPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/waitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/Alternate_awaitAndSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/Alternate_waitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/DoubleCheckedLocking/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/GuardedSuspension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/SyncMode_waitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/TwoPhaseTermination_interrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/TwoPhaseTermination_volatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/WorkerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/pattern/alternateParkAndUnPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/principle/AQS_principle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/reentrantLock/ReentrantLockDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/reentrantLock/ReentrantLockDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/reentrantLock/ReentrantLockDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/reentrantLock/ReentrantLockDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/forkJoin/ForkJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/myPool/TestThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/cachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/fixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/method/invokeAllDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/method/invokeAnyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/method/shutdownAndShutdownDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/method/submitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/scheduleExecutorServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/singleThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/synchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/threadPool/threadPoolExecutor/timerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/JVM/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/Singleton/hungry/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/Singleton/lazy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/factory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/conf/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/handler/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/java/com/wj/springboot/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/resources/static/leimu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/resources/templates/goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2021SVaction/test/Springboot/src/test/java/com/wj/springboot/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day1/AmericanCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day1/AmericanDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day1/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day1/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java SE/src/Day2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/conf/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/entity/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/entity/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/entity/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/common/src/main/java/com/wj/common/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/ops1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/conf/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/conf/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/controller/GoodsCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/controller/GoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/controller/GoodsOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/entity/vo/OrderVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/mapper/GoodsSpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/service/GoodsCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/service/GoodsOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/goods-api/src/main/java/com/wj/project/goods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/project-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/project-main/src/main/java/com/wj/project/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/project-main/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/project-main/src/test/java/com/wj/project/goods/service/GoodsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/entity/vo/AddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/mapper/AddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/mapper/CityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/mapper/CountyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/mapper/ProvinceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/service/CountyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/user-api/src/main/java/com/wj/project/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflect/src/annotation/DemoAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflect/src/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reflect/src/reflect/FatherDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/JUC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/JUC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ConCurrentCollections/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/package2/ConCurrentCollections/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/DeadLock/DeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/Demo/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/Demo/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/Demo/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/Demo/TestAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestAQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/package2/JUC/TestAQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestCountDownLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestCyclicBarri.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/package2/JUC/TestCyclicBarri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestReadWriteLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestSemaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/JUC/TestStampedLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/LiveLock/LiveLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ReentrantLock/reentrantLockDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ReentrantLock/reentrantLockDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ReentrantLock/reentrantLockDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ReentrantLock/reentrantLockDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ForkJoin/TestForkJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/MyPool/TestPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestCachedThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestFixedThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestInvokeAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestInvokeAny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestScheduledExecutorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestShutDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestSingleThreadExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestSubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/ThreadPool/ThreadPool/TestTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/Volatile/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicArray/atomicArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicReference/atomicMarkableReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicReference/atomicReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicReference/atomicStampedReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicReference/matterABA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/atomicUpdater/atomicReferenceFieldUpdater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/longAddr/LockCas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/atomic/longAddr/longAddr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/createThread/createThread1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/createThread/createThread2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/createThread/createThread3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/DaemonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/TestJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/interrupt1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/interrupt2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/interrupt3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/parkUnPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/sleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/waitAndNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/waitAndSleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/method/yield.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/method/yield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/GuardedSuspension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/TwoPhaseTermination_interrupt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/TwoPhaseTermination_volatile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/WorkerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/synchronization_WaitNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/pattern/synchronization_parkAndUnPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/synchronize/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/synchronize/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/synchronize/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/synchronize/MultiLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/unsafe/UnsafeAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/Unsafe/AccountUnsafeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/package2/unsafe/unsafeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JUC/src/tmp/9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JUC/src/main/java/tmp/9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JVM/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JVM/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JVM/src/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JVM/src/reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/JVM/src/string.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/JVM/src/string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/builder/Test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/builder/Test/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/builder/builderFinal/builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/builder/builderFinal/builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/factory/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/factory/Factory/factoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/factory/abstractFactory/abstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/factory/abstractFactory/abstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy/proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy/proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy1/proxy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy1/proxy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy3/proxy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy3/proxy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy4/proxy4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy4/proxy4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy5/proxy5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy5/proxy5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy6/proxy6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPattern/proxy/proxy6/proxy6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPrinciple/openclose/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPrinciple/openclose/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPrinciple/openclose/DiscountCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/designpattern/src/com/wj/designPrinciple/openclose/DiscountCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/java/com/wj/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2021SVaction/test/MyBatis/src/main/resources/sqlmap/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/annotation/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/annotation/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/src/annotation/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/annotation/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/reflect/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/src/reflect/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/reflect/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/src/reflect/DemoReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/reflect/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/src/reflect/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/target/classes/springmvc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Xml File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rChk3jFvanVtqwd25tdUTEmUTl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wj\javaCode\springboot2.0" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wj.springboot.service" />
+      <recent name="com.wj.springboot.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wj.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wj.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b79ae0d7-bf82-40c7-acca-830ff54b004d" name="Default Changelist" comment="" />
+      <created>1618486118844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618486118844</updated>
+      <workItem from="1618486120233" duration="4893000" />
+      <workItem from="1618492432734" duration="593000" />
+      <workItem from="1618636273625" duration="1361000" />
+      <workItem from="1620357945273" duration="45000" />
+      <workItem from="1645191684257" duration="24000" />
+      <workItem from="1646045573025" duration="5000" />
+      <workItem from="1649302359705" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="springbootTest&#10;出现导包有问题,直接重新创建一个项目" />
+    <MESSAGE value="springbootTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="springbootTest" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1618486598774">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1618486598774" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1618636683212">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1618636683212" />
+    <state width="480" height="466" key="DebuggerActiveHint" timestamp="1618490602428">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="480" height="466" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1618490602427" />
+    <state width="708" height="174" key="GridCell.Tab.0.bottom" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.0.center" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.0.left" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.0.right" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.1.bottom" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.1.center" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.1.left" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.1.right" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.2.bottom" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.2.center" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.2.left" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state width="708" height="174" key="GridCell.Tab.2.right" timestamp="1618492408397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="708" height="174" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1618492408397" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1618636618542">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1618636618542" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1618492496230">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1618492496230" />
+    <state x="467" y="94" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1618636665848">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="467" y="94" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.720@0.0.1280.720" timestamp="1618636665848" />
+    <state x="451" y="255" key="git4idea.ui.GitResetDialog" timestamp="1618492793694">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="451" y="255" key="git4idea.ui.GitResetDialog/0.0.1280.720@0.0.1280.720" timestamp="1618492793694" />
+    <state x="56" y="0" key="new project wizard" timestamp="1618636977752">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="56" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1618636977752" />
+  </component>
+</project>

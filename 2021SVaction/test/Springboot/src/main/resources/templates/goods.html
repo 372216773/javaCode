@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>商品</title>
+</head>
+<body>
+<h1>商品列表</h1>
+<h1 th:text="哈哈哈"/>
+<ul th:each="goods:${goodsList}">
+    <li th:text="${goods.id}"></li>
+    <li th:text="${goods.title}"></li>
+    <li th:text="${goods.description}"></li>
+    <li th:text="${goods.originPrice}"></li>
+    <li th:text="${goods.vipPrice}"></li>
+    <li th:text="${goods.imageUrl}"></li>
+    <br>
+</ul>
+</body>
+</html>

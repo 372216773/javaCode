@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Spring 的注解扫描器-->
+    <context:component-scan base-package="com.wj.ssm"/>
+
+    <!--配置 c3p0 连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/mybatis_demo?serverTime=Asia/Shanghai"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+
+    <!--Mybatis 整合 Spring-->
+    <bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--配置 Mybatis 所使用的连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--Mybatis 的配置文件-->
+        <property name="configLocation" value="classpath:mybatis-conf.xml"/>
+    </bean>
+
+    <!--配置 Mapper 扫瞄器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--扫描位置-->
+        <property name="basePackage" value="com.wj.ssm.mapper"/>
+        <!-- 注意 , 没有必要去指定SqlSessionFactory 或 SqlSessionTemplate ,
+        因为 MapperScannerConfigurer 将会创建MapperFactoryBean，之后自动装配。
+        但是,如果你使用了一个以上的 DataSource，那么自动装配可能会失效 。
+        这种情况下 ，你可以使用 sqlSessionFactoryBeanName 或 sqlSessionTemplateBeanName 属性来设置正确的 bean 名称来使用。-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+</beans>
